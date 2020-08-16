@@ -52,7 +52,7 @@ else:
 
 
 def extracter(page, count):
-    # count = 1
+  
     content = requests.get(page, headers=HEADERS)
     soup = BeautifulSoup(content.text, 'html.parser')
 
